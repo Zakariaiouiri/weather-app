@@ -1,0 +1,45 @@
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .3rem;
+}
+    
+    
+
+.search input {
+    all: unset;
+    padding: 8px 12px;
+    font-size: 12px;
+    border-radius: 50px;
+    font-family: 'Poppins', sans-serif;
+    min-width: 150px;
+    background: #fff;
+    transition: all 0.3s ease;
+    border: solid 3px transparent;
+    color: #111;
+}
+
+.search input:focus {
+    border: solid 3px rgb(0, 128, 255);
+}
+
+.search #find {
+    background-color: white;
+    border-radius: 50px;
+    padding: 3px;
+    cursor: pointer;
+    transition: all ease .3s ;
+    border: solid 2px transparent;
+}
+
+.search #find:hover {
+    background-color: #ffffff;
+    border: solid 2px rgb(0, 132, 255);
+    transform: translateY(-1.5px);
+}
+
+.search #find:active {
+    transform: translateY(1px);
+    border: solid 2px transparent;
+}

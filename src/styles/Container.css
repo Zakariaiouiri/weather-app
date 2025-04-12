@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+.container {
+    background-color: #212429ba;
+    backdrop-filter: blur(10px);
+    border-radius: 16px;
+    padding: 16px;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.weather-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: fit-content;
+}
+
+.weather-container .status {
+    font-size: 1.1rem;
+}
+
+.temperature {
+    font-size: 2.6rem;
+    font-weight: 600;
+    font-family: arial;
+    line-height: 1;
+}
+
+.weather-container .location {
+    font-size: 2.4rem;
+    font-weight: 600;
+}
+
+
+
+
+
+
+.weather-icon {
+    height: 9rem;
+    width: auto;
+}
+
+/* Error Message */
+.error-message {
+    color: red;
+    font-size: 1rem;
+    text-align: center;
+}
+
+
+.loading {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #666666;
+}
+
+
+
+
+
+.add_data {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.wind_div , .humidity_div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 6px;
+    padding: 0px 8px;
+
+}
+
+
+.wind_data span , .humidity_div span{
+    font-family: "Nunito", sans-serif;
+    display: inline-block;
+    line-height: 1;
+}
+
+.wind_head , .humidity_head {
+    font-size: 14px;
+}
+
+.value {
+    font-size: 18px;
+}
+
+
+

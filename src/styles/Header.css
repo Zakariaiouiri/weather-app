@@ -1,0 +1,52 @@
+header {
+    background-color: rgba(255, 255, 255, 0.154);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 18px;
+    border-radius: 50px;
+    box-shadow: 0 0px 8px rgba(0, 0, 0, 0.508);
+    margin: 20px auto;
+    backdrop-filter: blur(10px);
+    gap: 19rem;
+    width: fit-content;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: 700;
+    color: cyan;
+    text-decoration: none;
+    font-family: poppins;
+}
+
+.logo span {
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+    list-style: none;
+}
+
+.navbar li {
+    font-size: 12px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all .3s ease;
+    border-bottom: solid 2px transparent;
+}
+
+.navbar li:hover {
+    color: cyan;
+    border-bottom: solid 2px cyan;
+}
+
+.navbar li:active {
+    transform: translateY(1px);
+}
